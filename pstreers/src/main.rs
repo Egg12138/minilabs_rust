@@ -1,3 +1,6 @@
+mod pstree;
 fn main() {
-    println!("Hello, world!");
+    if let Ok(_) = pstree::parse_args().run() {
+        println!("Hello, world!");
+    }
 }

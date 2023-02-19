@@ -1,0 +1,3 @@
+
+[dependencis]
+std = { default-features = false }
