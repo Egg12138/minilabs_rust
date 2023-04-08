@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 95, in <module>
+    main()
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 87, in main
+    procs = [Proc(pid) for pid in all_pids() ]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 87, in <listcomp>
+    procs = [Proc(pid) for pid in all_pids() ]
+             ^^^^^^^^^
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 19, in __init__
+    self.pid = pid
+    ^^^^^^^^
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 46, in pid
+    self.pid = p
+    ^^^^^^^^
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 46, in pid
+    self.pid = p
+    ^^^^^^^^
+  File "/mnt/d/sourcecodes/os/jyy_os_mlabs/rust_version/pstreers/src/pst.py", line 46, in pid
+    self.pid = p
+    ^^^^^^^^
+  [Previous line repeated 992 more times]
+RecursionError: maximum recursion depth exceeded
